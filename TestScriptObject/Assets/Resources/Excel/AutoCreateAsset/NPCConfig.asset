@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5dfdef83af57c4e9b635cced94625f, type: 3}
+  m_Name: NPCConfig
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    npc_name: 111001
+    premakeup_look: people_1
+    stories: 10101,10102,10103,10104,10105,10106,10107
+    unlock: 1
+    default_cloth: 1010101
+  - id: 2
+    npc_name: 111002
+    premakeup_look: people_2
+    stories: 10201,10202,10203,10204,10205,10206,10207
+    unlock: 0
+    default_cloth: 1020101
+  - id: 3
+    npc_name: 111003
+    premakeup_look: people_3
+    stories: 10301,10302,10303,10304,10305,10306,10307
+    unlock: 0
+    default_cloth: 1030101
+  - id: 4
+    npc_name: 111004
+    premakeup_look: people_4
+    stories: 10401,10402,10403,10404,10405,10406,10407
+    unlock: 0
+    default_cloth: -1
+  - id: 5
+    npc_name: 111005
+    premakeup_look: people_5
+    stories: 10501,10502,10503,10504,10505,10506,10507
+    unlock: 0
+    default_cloth: -1
+  - id: 6
+    npc_name: 111006
+    premakeup_look: people_6
+    stories: 10601,10602,10603,10604,10605,10606,10607
+    unlock: 0
+    default_cloth: -1
+  - id: 7
+    npc_name: 111007
+    premakeup_look: people_7
+    stories: 10701,10702,10703,10704,10705,10706,10707
+    unlock: 0
+    default_cloth: -1
+  - id: 8
+    npc_name: 111008
+    premakeup_look: people_8
+    stories: 10801,10802,10803,10804,10805,10806,10807
+    unlock: 0
+    default_cloth: -1
+  - id: 9
+    npc_name: 111009
+    premakeup_look: people_9
+    stories: 10901,10902,10903,10904,10905,10906,10907
+    unlock: 0
+    default_cloth: -1
+  - id: 10
+    npc_name: 111010
+    premakeup_look: people_10
+    stories: 11001,11002,11003,11004,11005,11006,11007
+    unlock: 0
+    default_cloth: -1

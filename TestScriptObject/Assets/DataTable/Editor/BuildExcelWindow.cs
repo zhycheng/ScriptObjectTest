@@ -34,6 +34,8 @@ public class BuildExcelWindow : EditorWindow
 
     private string GetProjectName()
     {
+
+       
         string[] strs = Application.dataPath.Split('-')[0].Split('/');
         string projectName = strs[strs.Length - 1];
         return projectName;
@@ -151,11 +153,16 @@ public class BuildExcelWindow : EditorWindow
             Debug.LogError("无效路径：" + excelReadAbsolutePath);
             return;
         }
-        string[] excelFileFullPaths = Directory.GetFiles(excelReadAbsolutePath, "*.xlsx");
+
+        string lowStr = Path.Combine(Application.dataPath, "../");
+        string testStr=Path.Combine(lowStr, "../");
+        string excelPath = testStr + "TestXls";
+        
+        string[] excelFileFullPaths = Directory.GetFiles(excelPath, "*.xlsx");
 
         if (excelFileFullPaths == null || excelFileFullPaths.Length == 0)
         {
-            Debug.LogError(excelReadAbsolutePath + "路径下没有找到Excel文件");
+            Debug.LogError(excelPath + "路径下没有找到Excel文件");
             return;
         }
 

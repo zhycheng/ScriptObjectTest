@@ -1,0 +1,575 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc1d68bfa676bbc4ebb8d5f52081cc43, type: 3}
+  m_Name: Story
+  m_EditorClassIdentifier: 
+  items:
+  - id: 10101
+    title: 120101
+    bg_image: 10101
+    plot: 1010101
+    next_story: 10201
+    unlock: 1
+    unlock_npc: 2
+    favorability: 1
+  - id: 10102
+    title: 120102
+    bg_image: 10102
+    plot: 1010201
+    next_story: 10202
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10103
+    title: 120103
+    bg_image: 10103
+    plot: 1010301
+    next_story: 10203
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10104
+    title: 120104
+    bg_image: 10104
+    plot: 1010401
+    next_story: 10204
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10105
+    title: 120105
+    bg_image: 10105
+    plot: 1010501
+    next_story: 10205
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10106
+    title: 120106
+    bg_image: 10106
+    plot: 1010601
+    next_story: 10206
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10107
+    title: 120107
+    bg_image: 10107
+    plot: 1010701
+    next_story: 10207
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10201
+    title: 120201
+    bg_image: 10201
+    plot: 1020101
+    next_story: 10102
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10202
+    title: 120202
+    bg_image: 10202
+    plot: 1020201
+    next_story: 10301
+    unlock: 0
+    unlock_npc: 3
+    favorability: 1
+  - id: 10203
+    title: 120203
+    bg_image: 10203
+    plot: 1020301
+    next_story: 10302
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10204
+    title: 120204
+    bg_image: 10204
+    plot: 1020401
+    next_story: 10303
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10205
+    title: 120205
+    bg_image: 10205
+    plot: 1020501
+    next_story: 10304
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10206
+    title: 120206
+    bg_image: 10206
+    plot: 1020601
+    next_story: 10305
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10207
+    title: 120207
+    bg_image: 10207
+    plot: 1020701
+    next_story: 10306
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10301
+    title: 120301
+    bg_image: 10301
+    plot: 1030101
+    next_story: 10103
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10302
+    title: 120302
+    bg_image: 10302
+    plot: 1030201
+    next_story: 10104
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10303
+    title: 120303
+    bg_image: 10303
+    plot: 1030301
+    next_story: 10105
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10304
+    title: 120304
+    bg_image: 10304
+    plot: 1030401
+    next_story: 10106
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10305
+    title: 120305
+    bg_image: 10305
+    plot: 1030501
+    next_story: 10107
+    unlock: 0
+    unlock_npc: -1
+    favorability: 1
+  - id: 10306
+    title: 120306
+    bg_image: 10306
+    plot: 1030601
+    next_story: 10307
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10307
+    title: 120307
+    bg_image: 10307
+    plot: 1030701
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10401
+    title: 120401
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10402
+    title: 120402
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10403
+    title: 120403
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10404
+    title: 120404
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10405
+    title: 120405
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10406
+    title: 120406
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10407
+    title: 120407
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10501
+    title: 120501
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10502
+    title: 120502
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10503
+    title: 120503
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10504
+    title: 120504
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10505
+    title: 120505
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10506
+    title: 120506
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10507
+    title: 120507
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10601
+    title: 120601
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10602
+    title: 120602
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10603
+    title: 120603
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10604
+    title: 120604
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10605
+    title: 120605
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10606
+    title: 120606
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10607
+    title: 120607
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10701
+    title: 120701
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10702
+    title: 120702
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10703
+    title: 120703
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10704
+    title: 120704
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10705
+    title: 120705
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10706
+    title: 120706
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10707
+    title: 120707
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10801
+    title: 120801
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10802
+    title: 120802
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10803
+    title: 120803
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10804
+    title: 120804
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10805
+    title: 120805
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10806
+    title: 120806
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10807
+    title: 120807
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10901
+    title: 120901
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10902
+    title: 120902
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10903
+    title: 120903
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10904
+    title: 120904
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10905
+    title: 120905
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10906
+    title: 120906
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 10907
+    title: 120907
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11001
+    title: 121001
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11002
+    title: 121002
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11003
+    title: 121003
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11004
+    title: 121004
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11005
+    title: 121005
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11006
+    title: 121006
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0
+  - id: 11007
+    title: 121007
+    bg_image: 
+    plot: -1
+    next_story: -1
+    unlock: 0
+    unlock_npc: -1
+    favorability: 0

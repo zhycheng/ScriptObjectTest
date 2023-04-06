@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78a5bf9bf4c0e9498d806d14f142c13, type: 3}
+  m_Name: Signin
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1
+    rewardtype: 1
+    rewardpara: 500
+    bigreward: 0
+  - id: 2
+    rewardtype: 2
+    rewardpara: 1000202
+    bigreward: 1
+  - id: 3
+    rewardtype: 2
+    rewardpara: 1000302
+    bigreward: 0
+  - id: 4
+    rewardtype: 2
+    rewardpara: 1000402
+    bigreward: 0
+  - id: 5
+    rewardtype: 1
+    rewardpara: 1000
+    bigreward: 0
+  - id: 6
+    rewardtype: 2
+    rewardpara: 1010602
+    bigreward: 0
+  - id: 7
+    rewardtype: 2
+    rewardpara: 1000702
+    bigreward: 1

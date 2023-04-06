@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e3b7832cf217ca4d9c41eba9fcc1984, type: 3}
+  m_Name: Plot
+  m_EditorClassIdentifier: 
+  items:
+  - id: 1010101
+    plot_type: 1
+    plot_npc: 1
+    next_plot: 1010102
+    bg_image: 
+    main_character: 0
+    plot_text: 1010101
+  - id: 1010102
+    plot_type: 1
+    plot_npc: 1
+    next_plot: 1010103
+    bg_image: 
+    main_character: 0
+    plot_text: 1010102
+  - id: 1010103
+    plot_type: 1
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1010103
+  - id: 1010201
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010202
+    bg_image: 
+    main_character: 0
+    plot_text: 1010201
+  - id: 1010202
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010203
+    bg_image: 
+    main_character: 1
+    plot_text: 1010202
+  - id: 1010203
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010204
+    bg_image: 
+    main_character: 0
+    plot_text: 1010203
+  - id: 1010204
+    plot_type: 2
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 1
+    plot_text: 1010204
+  - id: 1010301
+    plot_type: 1
+    plot_npc: 1
+    next_plot: 1010302
+    bg_image: 
+    main_character: 0
+    plot_text: 1010301
+  - id: 1010302
+    plot_type: 1
+    plot_npc: 1
+    next_plot: 1010303
+    bg_image: 
+    main_character: 0
+    plot_text: 1010302
+  - id: 1010303
+    plot_type: 1
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1010303
+  - id: 1010401
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010402
+    bg_image: 
+    main_character: 0
+    plot_text: 1010401
+  - id: 1010402
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010403
+    bg_image: 
+    main_character: 1
+    plot_text: 1010402
+  - id: 1010403
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010404
+    bg_image: 
+    main_character: 0
+    plot_text: 1010403
+  - id: 1010404
+    plot_type: 2
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 1
+    plot_text: 1010404
+  - id: 1010501
+    plot_type: 1
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1010501
+  - id: 1010601
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010602
+    bg_image: 
+    main_character: 0
+    plot_text: 1010601
+  - id: 1010602
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010603
+    bg_image: 
+    main_character: 0
+    plot_text: 1010602
+  - id: 1010603
+    plot_type: 2
+    plot_npc: 1
+    next_plot: 1010604
+    bg_image: 
+    main_character: 0
+    plot_text: 1010603
+  - id: 1010604
+    plot_type: 2
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 1
+    plot_text: 1010604
+  - id: 1010701
+    plot_type: 1
+    plot_npc: 1
+    next_plot: 1010702
+    bg_image: 
+    main_character: 0
+    plot_text: 1010701
+  - id: 1010702
+    plot_type: 1
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1010702
+  - id: 1020101
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020102
+    bg_image: 
+    main_character: 0
+    plot_text: 1020101
+  - id: 1020102
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020103
+    bg_image: 
+    main_character: 0
+    plot_text: 1020102
+  - id: 1020103
+    plot_type: 1
+    plot_npc: 2
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1020103
+  - id: 1020201
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020202
+    bg_image: 
+    main_character: 0
+    plot_text: 1020201
+  - id: 1020202
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020203
+    bg_image: 
+    main_character: 0
+    plot_text: 1020202
+  - id: 1020203
+    plot_type: 1
+    plot_npc: 2
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1020203
+  - id: 1020301
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020302
+    bg_image: 
+    main_character: 0
+    plot_text: 1020301
+  - id: 1020302
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020303
+    bg_image: 
+    main_character: 0
+    plot_text: 1020302
+  - id: 1020303
+    plot_type: 1
+    plot_npc: 2
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1020303
+  - id: 1020401
+    plot_type: 1
+    plot_npc: 2
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1020401
+  - id: 1020501
+    plot_type: 2
+    plot_npc: 2
+    next_plot: 1020502
+    bg_image: 
+    main_character: 0
+    plot_text: 1020501
+  - id: 1020502
+    plot_type: 2
+    plot_npc: 2
+    next_plot: 1020503
+    bg_image: 
+    main_character: 1
+    plot_text: 1020502
+  - id: 1020503
+    plot_type: 2
+    plot_npc: 2
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1020503
+  - id: 1020601
+    plot_type: 1
+    plot_npc: 2
+    next_plot: 1020602
+    bg_image: 
+    main_character: 0
+    plot_text: 1020601
+  - id: 1020602
+    plot_type: 1
+    plot_npc: 2
+    next_plot: -1
+    bg_image: 
+    main_character: 1
+    plot_text: 1020602
+  - id: 1020701
+    plot_type: 1
+    plot_npc: 1
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1020701
+  - id: 1030101
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030102
+    bg_image: 
+    main_character: 0
+    plot_text: 1030101
+  - id: 1030102
+    plot_type: 1
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030102
+  - id: 1030201
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030202
+    bg_image: 
+    main_character: 0
+    plot_text: 1030201
+  - id: 1030202
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030203
+    bg_image: 
+    main_character: 0
+    plot_text: 1030202
+  - id: 1030203
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030204
+    bg_image: 
+    main_character: 0
+    plot_text: 1030203
+  - id: 1030204
+    plot_type: 1
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030204
+  - id: 1030301
+    plot_type: 2
+    plot_npc: 3
+    next_plot: 1030302
+    bg_image: 
+    main_character: 0
+    plot_text: 1030301
+  - id: 1030302
+    plot_type: 2
+    plot_npc: 3
+    next_plot: 1030303
+    bg_image: 
+    main_character: 0
+    plot_text: 1030302
+  - id: 1030303
+    plot_type: 2
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030303
+  - id: 1030401
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030402
+    bg_image: 
+    main_character: 0
+    plot_text: 1030401
+  - id: 1030402
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030403
+    bg_image: 
+    main_character: 0
+    plot_text: 1030402
+  - id: 1030403
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030404
+    bg_image: 
+    main_character: 0
+    plot_text: 1030403
+  - id: 1030404
+    plot_type: 1
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030404
+  - id: 1030501
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030502
+    bg_image: 
+    main_character: 0
+    plot_text: 1030501
+  - id: 1030502
+    plot_type: 1
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030502
+  - id: 1030601
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030602
+    bg_image: 
+    main_character: 0
+    plot_text: 1030601
+  - id: 1030602
+    plot_type: 1
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030602
+  - id: 1030701
+    plot_type: 1
+    plot_npc: 3
+    next_plot: 1030702
+    bg_image: 
+    main_character: 0
+    plot_text: 1030701
+  - id: 1030702
+    plot_type: 1
+    plot_npc: 3
+    next_plot: -1
+    bg_image: 
+    main_character: 0
+    plot_text: 1030702

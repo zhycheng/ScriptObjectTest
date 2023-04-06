@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82711b10490694a4eb49191103e2c580, type: 3}
+  m_Name: Furnish
+  m_EditorClassIdentifier: 
+  items:
+  - id: 10101
+    name: 130101
+    room: 1
+    icon: 1001
+    cost_money: 500
+    extra_money: 2
+  - id: 10102
+    name: 130102
+    room: 1
+    icon: 1002
+    cost_money: 400
+    extra_money: 2
+  - id: 10103
+    name: 130103
+    room: 1
+    icon: 1003
+    cost_money: 500
+    extra_money: 3
+  - id: 10104
+    name: 130104
+    room: 1
+    icon: 1004
+    cost_money: 400
+    extra_money: 3
+  - id: 10105
+    name: 130105
+    room: 1
+    icon: 1005
+    cost_money: 500
+    extra_money: 2
+  - id: 10106
+    name: 130106
+    room: 1
+    icon: 1006
+    cost_money: 400
+    extra_money: 2
+  - id: 10107
+    name: 130107
+    room: 1
+    icon: 1007
+    cost_money: 500
+    extra_money: 3
+  - id: 10108
+    name: 130108
+    room: 1
+    icon: 2001
+    cost_money: 400
+    extra_money: 3
+  - id: 10109
+    name: 130109
+    room: 1
+    icon: 2002
+    cost_money: 500
+    extra_money: 2
+  - id: 10110
+    name: 130110
+    room: 1
+    icon: 2003
+    cost_money: 400
+    extra_money: 2
+  - id: 20101
+    name: 130201
+    room: 2
+    icon: 1001
+    cost_money: 500
+    extra_money: 2
+  - id: 20102
+    name: 130202
+    room: 2
+    icon: 1002
+    cost_money: 400
+    extra_money: 2
+  - id: 20103
+    name: 130203
+    room: 2
+    icon: 1003
+    cost_money: 500
+    extra_money: 3
+  - id: 20104
+    name: 130204
+    room: 2
+    icon: 1004
+    cost_money: 400
+    extra_money: 3
+  - id: 20105
+    name: 130205
+    room: 2
+    icon: 1005
+    cost_money: 500
+    extra_money: 2
+  - id: 20106
+    name: 130206
+    room: 2
+    icon: 1006
+    cost_money: 400
+    extra_money: 2
+  - id: 20107
+    name: 130207
+    room: 2
+    icon: 1007
+    cost_money: 500
+    extra_money: 3
+  - id: 20108
+    name: 130208
+    room: 2
+    icon: 2001
+    cost_money: 400
+    extra_money: 3
+  - id: 20109
+    name: 130209
+    room: 2
+    icon: 2002
+    cost_money: 500
+    extra_money: 2
+  - id: 20110
+    name: 130210
+    room: 2
+    icon: 2003
+    cost_money: 400
+    extra_money: 2
